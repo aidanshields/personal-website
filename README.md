@@ -2,10 +2,14 @@
 My personal website
 I will use this as a planning page for myself :)
 
-## Each page will have:
+#### Each page will have:
 - the Navigation bar, which will ref. all the pages, and will be styled and be consistent (probably) for each page
 - a *main* portion (discribed below)
 - the footer, which will contain important info. for all the pages, and will be styled and be consistent (probably) for each page
+
+## Navigation bar
+TODOs:
+- add feature for search -> for now, it can be notification
 
 ## Mains
 Here are the contents of each of the main pages
@@ -34,3 +38,9 @@ My official resume, along with downloading capabilities
 
 ### Contact:
 my contact information, and automated emailing/messaging capabilities :)
+
+## footer
+TODOs:
+- add links for tabs and/or pop-ups
+- change footer message: where to find template and then credit myself
+- link to contact
