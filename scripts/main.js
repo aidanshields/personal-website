@@ -32,7 +32,7 @@ function toggleFunction() {
 // Used to switch to the page that was clicked
 function navigateFunction(selected) {
     // TODO: get all components rather than brute force 'enum'
-    const pages = ['home', 'about', 'portfolio', 'resume', 'contact']
+    const pages = ['home', 'portfolio', 'resume', 'contact']
 
     let size = pages.length;
     for (let i = 0; i < size; i++) {
