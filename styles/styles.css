@@ -61,3 +61,15 @@ html {
         min-height: 400px;
     }
 }
+
+.w3-bar .w3-bar-item {
+    height: 7vh;
+    font-size: 2vh;
+    vertical-align: top;
+    /* font-size: 100%; */
+}
+
+#homeRef {
+    font-size: 4vh;
+    vertical-align: -webkit-baseline-middle;
+}

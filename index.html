@@ -5,7 +5,7 @@
     <title>Aidan Shields</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/styles.css">
@@ -20,19 +20,21 @@
                 href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="#home" class="w3-bar-item w3-button" onclick="navigateFunction('home')">HOME</a>
+            <!-- TODO: fix this annoying offset issue -->
+            <a href="#home" class="w3-bar-item w3-button" onclick="navigateFunction('home')" id="homeRef">a.
+                shields</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-right"
+                onclick="navigateFunction('contact')"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="#resume" class="w3-bar-item w3-button w3-hide-small w3-right"
+                onclick="navigateFunction('resume')"><i class="fa fa-crosshairs"></i> RESUME</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-right"
+                onclick="navigateFunction('portfolio')"><i class="fa fa-th"></i> PORTFOLIO</a>
             <!-- <a href="html/about.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a> -->
-            <a href="#about" class="w3-bar-item w3-button w3-hide-small" onclick="navigateFunction('about')"><i
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-right" onclick="navigateFunction('about')"><i
                     class="fa fa-user"></i> ABOUT</a>
-            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small" onclick="navigateFunction('portfolio')"><i
-                    class="fa fa-th"></i> PORTFOLIO</a>
-            <a href="#resume" class="w3-bar-item w3-button w3-hide-small" onclick="navigateFunction('resume')"><i
-                    class="fa fa-crosshairs"></i> RESUME</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hide-small" onclick="navigateFunction('contact')"><i
-                    class="fa fa-envelope"></i> CONTACT</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+            <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
                 <i class="fa fa-search"></i>
-            </a>
+            </a> -->
         </div>
         <!-- good icons: telegram, paragraph, paper-plane, suitcase, copy, briefcase, trophy, thumb-tack-->
 
@@ -50,9 +52,10 @@
     <!-- First Parallax Image with Logo Text (Home Section) -->
     <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
         <div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span
-                    class="w3-hide-small">WEBSITE</span> LOGO</span>
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Aidan <span
+                    class="w3-hide-small">Shields</span>
         </div>
+        <p class="w3-center"><em>my personal website :)</em></p>
     </div>
 
     <!-- Container (About Section) -->
