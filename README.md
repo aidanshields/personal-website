@@ -32,6 +32,7 @@ This will be more detailed place for:
 - awards/achievements
 - education
 - maybe additional details (languages, frameworks, software, etc.) 
+I think it would be nice to make these all pannels, clicking to reveal a picture + blurb of the project/whatever, where clicking will reveal more details
 
 ### Resume:
 My official resume, along with downloading capabilities
